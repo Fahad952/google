@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;}
+header{width: 100%;display: flex;align-items: center;justify-content: end;}
+header ul{display: flex;padding: 20px;}
+header ul li{list-style: none; margin-left: 20px;}
+header ul li img{height: 20px;width: 20px;} 
+header ul li button{padding: 10px;background-color: rgb(75, 75, 247);}
+header ul li button:hover{background-color: rgb(63, 63, 112);}
+.box1{width: 100%; align-items: center;justify-content: center;display: flex;flex-direction: column;}
+.box1 div{padding: 10px;}
+.box1 .bbox2 img{margin-top: 20%;}
+.box1 .bbox3 {width: 100%;align-items: center;justify-content: center;display: flex;}
+.box1{width: 100%;align-items: center;display: flex;justify-content: center;}
+.box1 ul li{padding: 10px;}
+.box1 .bbox3 input{width: 600px;height: 60px;border-radius: 50px;background-color: rgb(221, 221, 221);border: 1px solid black;outline: none;font-size: 35px;}
+.box1 .bbox3 input:hover{background-color: rgb(238, 236, 236);}
+
+.box1 .bbox4 ul{margin-left: 20px;display: flex;}
+.box1 .bbox4 ul li{list-style: none;height: 30px;}
+.box1 .bbox4 ul li button{padding: 10px;background-color: rgb(191, 194, 194);} 
+.box1 .bbox6{margin-top:20px ;}
+.box1 .bbox6 button{padding: 10px;background-color: rgb(199, 199, 197);}
+footer{bottom:0%;background-color: rgb(201, 201, 200);display: flex;align-items: center;justify-content: space-between;height: 100px;position: absolute;width: 100%;}
+.fbox1 ul{right: 0;display: flex;justify-content: center;align-items: center;}
+.fbox1 ul li{list-style: none;margin-left: 10px;}
+.fbox2 ul{left: 0;display: flex;justify-content: center;align-items: center;}
+.fbox2 ul li {list-style: none;margin-left: 10px;}
